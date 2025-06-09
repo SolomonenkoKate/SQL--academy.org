@@ -57,17 +57,16 @@ WHERE town_to = 'Moscow'
 
 ### Задание 8. В какие города можно улететь из Парижа (Paris) и сколько времени это займёт?
 
-#### вариант 1
 <details> 
+	
+#### вариант 1
 SELECT town_to,
 	TIMEDIFF(time_in, time_out) AS flight_time
 FROM Trip
 WHERE town_from = 'Paris'
-</details> 
 
 
 #### вариант 2
-<details> 
 SELECT town_to,
 	sec_to_time(TIMESTAMPDIFF(SECOND, time_out, time_in)) AS flight_time
 FROM Trip
@@ -120,3 +119,44 @@ GROUP BY name
 HAVING COUNT(name) > 1
 </details>
 
+### Задание 14. В какие города летал Bruce Willis
+<details>
+SELECT town_to
+FROM trip
+	JOIN Pass_in_trip ON Trip.id = Pass_in_trip.trip
+	JOIN Passenger ON Pass_in_trip.passenger = Passenger.id
+WHERE Passenger.name = 'Bruce Willis'
+</details>
+
+### Задание 15. Выведите идентификатор пассажира Стив Мартин (Steve Martin) и дату и время его прилёта в Лондон (London)
+<details>
+SELECT Passenger.id,
+	time_in
+FROM Trip
+	JOIN Pass_in_trip ON Trip.id = Pass_in_trip.trip
+	JOIN Passenger ON Pass_in_trip.passenger = Passenger.id
+WHERE Passenger.name = 'Steve Martin'
+	AND town_to = 'London'
+</details>
+
+### Задание 16. Вывести отсортированный по количеству перелетов (по убыванию) и имени (по возрастанию) список пассажиров, совершивших хотя бы 1 полет.
+<details>
+	
+#### вариант 1
+	SELECT name,
+	COUNT(Pass_in_trip.id) AS COUNT
+FROM Pass_in_trip
+	JOIN Passenger ON Pass_in_trip.passenger = Passenger.id
+WHERE Pass_in_trip.passenger = Passenger.id
+GROUP BY Passenger.name
+ORDER BY COUNT(Pass_in_trip.id) DESC, name
+
+#### вариант 2
+SELECT name,
+	COUNT(*) AS count
+FROM Passenger
+	JOIN Pass_in_trip on Pass_in_trip.passenger = Passenger.id
+GROUP BY passenger
+HAVING COUNT(trip) > 0
+ORDER by COUNT(trip) DESC, name
+</details>
