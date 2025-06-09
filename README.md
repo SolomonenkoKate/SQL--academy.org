@@ -1,3 +1,8 @@
+<h1 align="center">Hi there, I'm <a href="https://daniilshat.ru/" target="_blank">Daniil</a> 
+<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
+<h3 align="center">Computer science student, IT news writer from Russia 🇷🇺</h3>
+
+
 # Решение заданий от SQL-academy (https://sql-academy.org/)
 
 ### Задание 1. Вывести имена всех людей, которые есть в базе данных авиакомпаний
@@ -160,3 +165,5 @@ GROUP BY passenger
 HAVING COUNT(trip) > 0
 ORDER by COUNT(trip) DESC, name
 </details>
+
+
