@@ -1,4 +1,5 @@
-<h1 align="center">Всем привет!<a href="https://daniilshat.ru/" target="_blank"> Здесь вы найдете мои решения заданий от SQL-academy (https://sql-academy.org/)</a> 
+<h1 align="center">Всем привет!<a href="https://daniilshat.ru/" target="_blank"> </a> 
+<h3 align="center">Здесь вы найдете мои решения заданий от SQL-academy (https://sql-academy.org/) </h3>
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 
 
