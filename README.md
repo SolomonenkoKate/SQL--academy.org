@@ -1,7 +1,7 @@
 # Решение заданий от SQL-academy (https://sql-academy.org/)
 
 ### Задание 1. Вывести имена всех людей, которые есть в базе данных авиакомпаний
-<details> 
+<details> решение задания
 SELECT name
 FROM Passenger
 </details> 
