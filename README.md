@@ -7,10 +7,8 @@
 
 ### Задание 1. Вывести имена всех людей, которые есть в базе данных авиакомпаний
 <details> 
-````
-SELECT name
+`SELECT name
 FROM Passenger
-````
 </details> 
 
 
