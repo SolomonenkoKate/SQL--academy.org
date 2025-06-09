@@ -1,5 +1,5 @@
 <h1 align="left">Всем привет!<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"> 
-<h2 align="left">Здесь вы найдете мои решения заданий от SQL-academy (https://sql-academy.org/) </h2>
+<h2 align="left">Здесь вы найдете мои решения заданий от SQL-academy (https://sql-academy.org/) <h2>
 
 
 
