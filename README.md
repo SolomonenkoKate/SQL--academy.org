@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif](https://giphy.com/gifs/vISmwpBJUNYzukTnVx)"/>
+  <img src="[https://github.com/blackcater/blackcater/raw/main/images/Hi.gif](https://giphy.com/gifs/vISmwpBJUNYzukTnVx)](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzZ2ZzJhNWk3ajVtanNtNXJ5Yjhia3Y3emo0M3kyZHEybzRuMnBqMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vISmwpBJUNYzukTnVx/giphy.gif)"/>
 </div>
 <h1 align="left"> Всем привет!<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"> 
 Здесь вы найдете мои решения заданий от SQL-academy (https://sql-academy.org/) 
