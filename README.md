@@ -1,4 +1,4 @@
-<h1 align="left"> Всем привет!<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"> 
+<h1 align="left"> Всем привет!<img src="[https://github.com/blackcater/blackcater/raw/main/images/Hi.gif](https://giphy.com/gifs/vISmwpBJUNYzukTnVx)" height="32"> 
 Здесь вы найдете мои решения заданий от SQL-academy (https://sql-academy.org/) 
 </h1>
 
@@ -7,7 +7,7 @@
 
 ### Задание 1. Вывести имена всех людей, которые есть в базе данных авиакомпаний
 <details> 
-`SELECT name
+SELECT name
 FROM Passenger
 </details> 
 
