@@ -1,7 +1,7 @@
 # Решение заданий от SQL-academy (https://sql-academy.org/)
 
 ### Задание 1. Вывести имена всех людей, которые есть в базе данных авиакомпаний
-<details> решение задания
+<details> 
 SELECT name
 FROM Passenger
 </details> 
@@ -99,8 +99,9 @@ GROUP BY trip
 </details> 
 
 ### Задание 13. Вывести имена людей, у которых есть полный тёзка среди пассажиров
-
+<details>
 SELECT name
 FROM passenger
 GROUP BY name
 HAVING COUNT(name) > 1
+</details>
