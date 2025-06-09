@@ -1,4 +1,7 @@
-<h1 align="left"> Всем привет!<img src="[https://github.com/blackcater/blackcater/raw/main/images/Hi.gif](https://giphy.com/gifs/vISmwpBJUNYzukTnVx)" height="32"> 
+<div id="header" align="center">
+  <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif](https://giphy.com/gifs/vISmwpBJUNYzukTnVx)"/>
+</div>
+<h1 align="left"> Всем привет!<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"> 
 Здесь вы найдете мои решения заданий от SQL-academy (https://sql-academy.org/) 
 </h1>
 
