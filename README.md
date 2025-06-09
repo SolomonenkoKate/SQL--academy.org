@@ -6,11 +6,13 @@ SELECT name
 FROM Passenger
 </details> 
 
+
 ### Задание 2. Вывести названия всеx авиакомпаний
 <details> 
 SELECT name
 from Company
 </details>  
+
 
 ### Задание 3. Вывести все рейсы, совершенные из Москвы
 <details> 
@@ -19,6 +21,7 @@ FROM trip
 WHERE town_from = 'Moscow'
 </details> 
 
+
 ### Задание 4. Вывести имена людей, которые заканчиваются на "man"
 <details> 
 SELECT name
@@ -26,12 +29,14 @@ FROM passenger
 WHERE name LIKE '%man'
 </details> 
 
+
 ### Задание 5. Вывести количество рейсов, совершенных на TU-134
 <details>  
 SELECT COUNT(*) AS COUNT
 FROM Trip
 WHERE plane = 'TU-134'
 </details> 
+
 
 ### Задание 6. Какие компании совершали перелеты на Boeing
 <details> 
@@ -41,6 +46,7 @@ FROM Company
 WHERE Trip.plane = 'Boeing'
 </details> 
 
+
 ### Задание 7. Вывести все названия самолётов, на которых можно улететь в Москву (Moscow)
 <details> 
 SELECT DISTINCT plane
@@ -48,7 +54,9 @@ FROM Trip
 WHERE town_to = 'Moscow'
 </details> 
 
+
 ### Задание 8. В какие города можно улететь из Парижа (Paris) и сколько времени это займёт?
+
 #### вариант 1
 <details> 
 SELECT town_to,
@@ -56,6 +64,7 @@ SELECT town_to,
 FROM Trip
 WHERE town_from = 'Paris'
 </details> 
+
 
 #### вариант 2
 <details> 
@@ -65,6 +74,7 @@ FROM Trip
 WHERE town_from = 'Paris'
 </details> 
 
+
 ### Задание 9. Какие компании организуют перелеты из Владивостока (Vladivostok)?
 <details> 
 SELECT name
@@ -73,12 +83,14 @@ FROM Company
 WHERE town_from = 'Vladivostok'
 </details> 
 
+
 ### Задание 10. Вывести вылеты, совершенные с 10 ч. по 14 ч. 1 января 1900 г.
 <details> 
 SELECT *
 FROM Trip
 WHERE time_out BETWEEN '1900-01-01 10:00:00' AND '1900-01-01 14:00:00'
 </details> 
+
 
 ### Задание 11. Выведите пассажиров с самым длинным ФИО. Пробелы, дефисы и точки считаются частью имени.
 <details> 
@@ -89,6 +101,7 @@ WHERE LENGTH(name) = (
 		FROM Passenger
 	)
  </details> 
+ 
 
 ### Задание 12. Выведите идентификаторы всех рейсов и количество пассажиров на них. Обратите внимание, что на каких-то рейсах пассажиров может не быть. В этом случае выведите число "0".
 <details> 
@@ -98,6 +111,7 @@ FROM Pass_in_trip
 GROUP BY trip
 </details> 
 
+
 ### Задание 13. Вывести имена людей, у которых есть полный тёзка среди пассажиров
 <details>
 SELECT name
@@ -105,3 +119,4 @@ FROM passenger
 GROUP BY name
 HAVING COUNT(name) > 1
 </details>
+
