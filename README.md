@@ -1,4 +1,4 @@
-<h1 align="center">Всем привет!<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/> 
+<h1 align="left">Всем привет!<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/> 
 <h2 align="center">Здесь вы найдете мои решения заданий от SQL-academy (https://sql-academy.org/) </h2>
 </h1>
 
